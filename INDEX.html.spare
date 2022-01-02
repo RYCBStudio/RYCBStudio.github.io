@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <meta charset="UTF-8">
+    <head>
+      <title>
+          RYCBStudio —— RYCB工作室
+      </title>
+      <style>
+          p{
+              color: ghostwhite;
+              border: gold;
+          }
+      </style>
+        <center>
+          <h1>
+            This is RYCBStudio's Offical Webpage.
+          </h1><h1>
+            这是RYCBStudio的官方网站
+          </h1>
+        </center>
+    </head>
+    <body>
+      <h2><center>人员</center></h2>
+    </body>
+    <div id="footer">
+    <script>
+        var now = new Date();
+        var year=now.getFullYear();
+        var currentime = '<span class="special">'+"Copyright (c) "+year+" RYCBStudio,All Rights Reserved."
+        document.write(currentime)
+    </script>
+    </div>
+</html>
